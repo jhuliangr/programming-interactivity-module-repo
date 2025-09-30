@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A modern, minimalist website foundation with futuristic design">
+  <title>Futuristic Foundation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   Header with navigation 
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4" y="4" width="32" height="32" stroke="currentColor" stroke-width="2" transform="rotate(45 20 20)"/>
+            <rect x="12" y="12" width="16" height="16" fill="currentColor" transform="rotate(45 20 20)"/>
+          </svg>
+          <span class="logo-text">Nexus</span>
+        </div>
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+        
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+   Main content 
+  <main>
+     Hero section 
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-heading">
+              Shape the Future
+            </h1>
+            <p class="hero-subheading">
+              Embrace innovation and transform possibilities into reality with cutting-edge solutions designed for tomorrow.
+            </p>
+            <a href="#contact" class="cta-button">Get Started</a>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="geometric-shape shape-1"></div>
+            <div class="geometric-shape shape-2"></div>
+            <div class="geometric-shape shape-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     Content section with multi-column grid 
+    <section class="content-section" id="features">
+      <div class="container">
+        <h2 class="section-heading">Core Principles</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <polygon points="24,8 40,24 24,40 8,24" stroke="currentColor" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3>Innovation</h3>
+            <p>Push boundaries and explore new horizons with forward-thinking approaches that challenge the status quo.</p>
+          </article>
+          
+          <article class="card">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="12" y="12" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"/>
+                <rect x="18" y="18" width="12" height="12" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Precision</h3>
+            <p>Every detail matters. We craft experiences with meticulous attention to quality and performance.</p>
+          </article>
+          
+          <article class="card">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="2" fill="none"/>
+                <circle cx="24" cy="24" r="6" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Vision</h3>
+            <p>See beyond the present and anticipate the needs of tomorrow with strategic foresight.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+   Footer 
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="copyright">&copy; 2025 Nexus. All rights reserved.</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul class="footer-links">
+            <li><a href="#privacy">Privacy</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
