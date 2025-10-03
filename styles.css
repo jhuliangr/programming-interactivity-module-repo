@@ -163,8 +163,7 @@ a:focus-visible {
   background-color: var(--color-surface);
   border-block-end: 1px solid var(--color-border);
   padding-block: var(--space-md);
-  position: fixed;
-  width: 100vw;
+  position: sticky;
   inset-block-start: 0;
   z-index: 100;
   backdrop-filter: blur(10px);
